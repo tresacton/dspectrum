@@ -24,6 +24,11 @@ Usage:
     $ ./dspectrum
     
 This will spawn an interactive shell, along with inspectrum itself.
+As you usually would, open your capture file. Then align the cursors, right click the signal, add amplitued plot (for OOK) or add frequency plot (for 2FSK). Right click the plot that appeared, and click extract data. The demodulated bits should appear in your terminal.
+
+This script has been tested with OOK & 2FSK signals with a 100% success rate (so far...). It does some sanity checking and will alert if you something doesn't feel right.
+
+You can also use this tool to compare 2 parts of a signal in the same file, or signals from two separate files.
 
       
 
