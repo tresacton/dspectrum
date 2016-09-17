@@ -36,7 +36,8 @@ Demo
 ---------------
 
 Video demonstration - Capturing signals from two files, and comparing them:
-https://youtu.be/wR0HpWfeVRU
+[![YouTube Video](https://raw.githubusercontent.com/tresacton/dspectrum/master/youtube.png)](https://youtu.be/wR0HpWfeVRU)
+
 
 
 Thanks
