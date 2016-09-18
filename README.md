@@ -1,5 +1,5 @@
 # dspectrum:
-Automated RF/SDR Signal Analysis [Reverse Engineering]
+Automated RF/SDR Signal Analysis [Reverse Engineering] 
 
 <img src="https://raw.githubusercontent.com/tresacton/dspectrum/master/dspectrum_comparison.png"> 
 
