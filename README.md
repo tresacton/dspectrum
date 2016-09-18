@@ -15,6 +15,7 @@ Installation
     git clone https://github.com/tresacton/dspectrum
     cd dspectrum
     chmod +x ./dspectrum
+    gem install colorize
 
     cp ./dspectrum /usr/local/bin/  # optional
 
