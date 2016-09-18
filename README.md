@@ -19,7 +19,7 @@ Installation
     cp ./dspectrum /usr/local/bin/  # optional
 
 Usage:
-------------
+------------ 
 
     ./dspectrum   #  or simply `dspectrum` if you copied it to /usr/local/bin
     
