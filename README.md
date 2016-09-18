@@ -12,16 +12,16 @@ Ruby
 Installation
 ------------
 
-    $ git clone https://github.com/tresacton/dspectrum
-    $ cd dspectrum
-    $ chmod +x ./dspectrum
-    $ ./dspectrum
+    git clone https://github.com/tresacton/dspectrum
+    cd dspectrum
+    chmod +x ./dspectrum
 
+    cp ./dspectrum /usr/local/bin/  # optional
 
 Usage:
 ------------
 
-    $ ./dspectrum
+    ./dspectrum   #  or simply `dspectrum` if you copied it to /usr/local/bin
     
 This will spawn an interactive shell, along with inspectrum itself.
 As you usually would, open your capture file. Then align the cursors, right click the signal, add amplitued plot (for OOK) or add frequency plot (for 2FSK). Right click the plot that appeared, and click extract data. The demodulated bits should appear in your terminal.
