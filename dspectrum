@@ -246,8 +246,8 @@ def help
       :dual => 'Compare next signal from this file with a signal from another file (re-spawns Inspectrum in between)',
       :stop => 'Closes Inspectrum',
       :start => 'Opens Inspectrum',
-      :exit => 'Quit dspectrum',
-      # "verbose" => "Include the array of raw data from Inspectrum",
+      :verbose => "Include the array of raw data from Inspectrum",
+      :exit => 'Quit dspectrum'
   }
   puts 'dspectrum - by nullwolf'.colorize(:red)
   puts 'USAGE: '.colorize(:green)
