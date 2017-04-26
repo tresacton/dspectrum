@@ -130,11 +130,27 @@ def threshold_safety_check raw, threshold
 
 end
 
+def manchester_decode demod
+  len=demod.length
+  i=0
+  output=''
+  while i < len-1 do
+    if (demod[i] == demod[i+1])
+      output+="E"
+    else
+      output+=demod[i+1]
+    end
+    i+=2
+  end
+  return output
+end
+
 def print_results demod
   hex = ''
   f_hex = '\x'
   hex << '%02x' % demod.to_i(2)
   f_hex << hex.scan(/.{2}|.+/).join('\x')
+  manch=manchester_decode(demod)
 
   puts
   puts
@@ -142,6 +158,7 @@ def print_results demod
   puts "[*] Hexcode: \t\t#{hex}".colorize(:green)
   puts "[*] Formatted Hexcode: \t#{f_hex}".colorize(:green)
   puts "[*] Ascii:  \t\t#{hex.gsub(/../) { |pair| pair.hex.chr }}".colorize(:green)
+  puts "[*] Manchester: \t#{manch}".colorize(:green)
   puts
   return hex
 end
