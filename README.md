@@ -1,3 +1,7 @@
+# This application is no longer maintained. It has been superceded by DSpectrumGUI which boasts many more features to assist in reverse engineering. I will leave this repository here - if you insist on using it, read on for instructions. DSpectrumGUI can be found at: https://github.com/tresacton/dspectrumgui 
+
+---
+
 # dspectrum:
 Automated RF/SDR Signal Analysis [Reverse Engineering] 
 
